@@ -1,0 +1,22 @@
+{
+  "source_dataset": "https://archive.ics.uci.edu/dataset/401/gene",
+  "original_source_download": "https://archive.ics.uci.edu/static/public/401/gene%2Bexpression%2Bcancer%2Brna%2Bseq.zip",
+  "mapping_source": "https://raw.githubusercontent.com/Roman-Young/tcga-pancan-tumor-classifier/main/gene_mapping.csv",
+  "mapping_quality": "PROVISIONAL: third party mapping; complete independent TCGA index verification pending",
+  "samples": 801,
+  "features": 20531,
+  "class_counts": {
+    "PRAD": 136,
+    "LUAD": 141,
+    "BRCA": 300,
+    "KIRC": 146,
+    "COAD": 78
+  },
+  "gene_symbols_unresolved": 29,
+  "date_utc": "2026-11-14T23:44:39.916355+00:00",
+  "original_archive_sha256": "06bbb28393ed85b4365f461f20ad75996f2579af4a047945c038ec27386e3bfb",
+  "mapping_sha256": "6cfb10ebaf73de7ad3944f3d030e95573dd7f165d52ce80e8a3f57568ec9bb24",
+  "mapped_dataset_sha256": "4afdec2b3dcbb63449a4bcd6882d60a31c2d8bff6e4d9ec05197ce1ad7a80c4a",
+  "column_naming": "symbol__ENTREZid; unmapped ENTREZ_id__ENTREZid; original order preserved",
+  "note": "This table is for computational research; no clinical diagnosis or population cancer risk."
+}

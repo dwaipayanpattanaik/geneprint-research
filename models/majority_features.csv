@@ -1,0 +1,2 @@
+uci_feature,gene_symbol,entrez_id,original_tcga_gene_id,output_column,mapping_status,mapping_source,selection_score,train_min,train_max,train_mean,train_std,train_median
+gene_0,,100130426,?|100130426,ENTREZ_100130426__ENTREZ100130426,symbol_unresolved,https://raw.githubusercontent.com/Roman-Young/tcga-pancan-tumor-classifier/main/gene_mapping.csv,0.0,0.0,1.48233202075,0.020423578526880353,0.12653956906528935,0.0
